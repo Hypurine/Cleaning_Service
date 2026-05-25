@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cleanTime: 3
   requiredTool: 2
-  cleaningLoop: {fileID: 8300000, guid: cc9b0147a7371c24398fb0abf4226c1b, type: 3}
+  cleaningLoop: {fileID: 8300000, guid: 85a752a29f6f78b46bd995704ac1bdc0, type: 3}
   cleanComplete: {fileID: 8300000, guid: 663e54af80f33304f9ca2689cb8d76d4, type: 3}
 --- !u!65 &5450305959646383033
 BoxCollider:

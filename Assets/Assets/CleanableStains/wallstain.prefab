@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5450305959646383033}
   - component: {fileID: 6966451587231233535}
   m_Layer: 0
-  m_Name: dirt
+  m_Name: wallstain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2d02525aa2156f042835fefbf5f7d5a3, type: 2}
+  - {fileID: 2100000, guid: 100a74ffa9989584c9949195dd703416, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
