@@ -6,6 +6,7 @@ public enum ToolType
 {
     Hand,
     Broom,
-    Mop
+    Mop,
+    Baygone
 }
 

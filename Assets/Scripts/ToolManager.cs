@@ -9,6 +9,7 @@ public class ToolManager : MonoBehaviour
     public GameObject broomObject;
 
     public GameObject mopObject;
+    public GameObject baygoneObject;
 
     void Start()
     {
@@ -40,6 +41,14 @@ public class ToolManager : MonoBehaviour
 
             UpdateToolVisuals();
         }
+
+        // Baygone
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            currentTool = ToolType.Baygone;
+
+            UpdateToolVisuals();
+        }
     }
 
     void UpdateToolVisuals()
@@ -50,6 +59,10 @@ public class ToolManager : MonoBehaviour
 
         mopObject.SetActive(
             currentTool == ToolType.Mop
+        );
+
+        baygoneObject.SetActive(
+            currentTool == ToolType.Baygone
         );
     }
 }
